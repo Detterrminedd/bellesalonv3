@@ -50,7 +50,7 @@ body {
 
 .headd {
   position: fixed;
-  background: rgba(255, 255, 255, 0.39);
+  background: #dcc29c;
   top: 0;
   left: 0;
   width: 100%;
@@ -68,6 +68,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "DM Serif Display", serif;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
 .headdd {
@@ -183,7 +184,7 @@ body {
 }
 
 .landing-page {
-  background: linear-gradient(#00000056, #0000005e), url("../../assets/simran222.jpg");
+  background: url("../../assets/simran222.jpg");
   background-color: #dcc29c;
   background-size: cover;
   background-position: center;
@@ -191,7 +192,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  grid-template-rows: 60vh 30vh;
+  grid-template-rows: 60vh 38vh;
   color: white;
 }
 
@@ -208,7 +209,10 @@ body {
 .landing-page h1 {
   font-family: "Playfair Display", serif;
   font-size: 3rem;
+  font-size: 3.3rem;
   text-align: center;
+  color: #fff;
+  text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .landing-page h4 {
@@ -230,6 +234,7 @@ body {
   color: white;
   text-align: center;
   padding: 0 2em;
+  text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .headingg {
@@ -239,7 +244,8 @@ body {
 .headingg h1 {
   font-size: 4rem;
   font-family: "Playfair Display", serif;
-  color: #dcc29c;
+  color: #dac19c;
+  text-shadow: 1px 1px 15px #dcc29c6b;
 }
 
 .headingg p {
@@ -247,6 +253,7 @@ body {
   font-size: 1.3rem;
   margin-top: -44px;
   margin-left: 20px;
+  text-shadow: 1px 1px 15px #dcc29c6b;
 }
 
 .pg2 div {
@@ -374,7 +381,7 @@ body {
   justify-content: center;
   color: #fff;
   background: #000000;
-  background: linear-gradient(#8f064f6b, #b9067e69), url("../../assets/img2.jpg");
+  background: linear-gradient(#00000043, rgba(0, 0, 0, 0.404)), url("../../assets/img2.jpg");
   background-size: cover;
   background-position: center;
   font-family: "Montserrat", sans-serif;
@@ -382,22 +389,29 @@ body {
 }
 
 .booking p {
-  font-size: 0.8em;
+  font-size: 0.99em;
+  color: #fff;
+  text-shadow: 1px 1px 35px black;
 }
 
 .booking h1 {
   font-size: 3rem;
   font-family: "Playfair Display", serif;
-  color: #2c2c2c;
+  margin: 1rem;
+  color: #000;
+  text-shadow: 1px 1px 25px rgba(0, 0, 0, 0.397);
 }
 
 .booking div p {
   font-size: 1em;
+  color: #fff;
+  text-shadow: 1px 1px 35px rgba(0, 0, 0, 0.63);
 }
 
 .booking div h1 {
-  font-size: 2em;
-  color: #fff;
+  font-size: 3em;
+  color: #000;
+  text-shadow: 1px 1px 35px black;
 }
 
 .kigg {
@@ -411,10 +425,15 @@ body {
   width: fit-content;
 }
 
+.kigg p {
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+}
+
 .kigg .gal {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 1px 2px 15px;
 }
 
 .kigg .gal img {
@@ -433,7 +452,9 @@ body {
   color: #dcc29c;
   width: 80%;
   margin-bottom: 1em;
-  background: rgba(255, 255, 255, 0.205);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #dcc29c;
 }
 
 .bttn:hover {
@@ -454,6 +475,11 @@ body {
 .about img {
   border-radius: 50% 0;
   border: 10px solid #dcc29c;
+  box-shadow: rgba(0, 0, 0, 0.35) 1px 2px 10px;
+}
+
+.about p {
+  text-shadow: 1px 1px 38px rgba(0, 0, 0, 0.3);
 }
 
 .form__group {
@@ -635,7 +661,7 @@ hr.new5 {
 }
 
 .optn summary {
-  padding: 1rem;
+  padding: 0.7rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -646,6 +672,7 @@ hr.new5 {
   background-color: #dcc29c;
   cursor: pointer;
   list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 1px 2px 15px;
 }
 
 .optn summary::-webkit-details-marker {

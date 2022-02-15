@@ -25,7 +25,7 @@ const b = document.querySelector(".b");
 console.log(sticky, "shaber");
 
 function myFunction() {
-  if (window.scrollY >= 100) {
+  if (window.scrollY >= 40) {
     navbarr.classList.add("headdd");
     light.style.color = "white";
     b.style.display = "block";
