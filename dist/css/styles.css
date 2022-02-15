@@ -192,7 +192,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  grid-template-rows: 60vh 38vh;
+  grid-template-rows: 60vh 30vh;
   color: white;
 }
 
@@ -392,6 +392,7 @@ body {
   font-size: 0.99em;
   color: #fff;
   text-shadow: 1px 1px 35px black;
+  padding: auto 1em;
 }
 
 .booking h1 {
