@@ -226,7 +226,7 @@ body {
 }
 
 .landing-page div {
-  place-self: end;
+  place-self: center;
 }
 
 .landing-page div p {
@@ -381,7 +381,7 @@ body {
   justify-content: center;
   color: #fff;
   background: #000000;
-  background: linear-gradient(#00000043, rgba(0, 0, 0, 0.404)), url("../../assets/img2.jpg");
+  background: url("../../assets/img2.jpg");
   background-size: cover;
   background-position: center;
   font-family: "Montserrat", sans-serif;

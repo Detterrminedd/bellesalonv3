@@ -252,7 +252,7 @@ body {
     place-self: end center;
   }
   div {
-    place-self: end;
+    place-self: center;
     p {
       font-family: $font-family-1;
       color: white;
@@ -403,8 +403,7 @@ body {
   justify-content: center;
   color: #fff;
   background: #000000;
-  background: linear-gradient(#00000043, rgba(0, 0, 0, 0.404)),
-    url("../../assets/img2.jpg");
+  background: url("../../assets/img2.jpg");
   background-size: cover;
   background-position: center;
   font-family: $font-family-1;
@@ -760,4 +759,7 @@ hr.new5 {
     display: block;
     cursor: pointer;
   }
+}
+@media screen and (min-width: 768px) {
+  
 }
