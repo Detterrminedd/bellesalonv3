@@ -474,9 +474,11 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: #dcc29c;
   &:hover {
-    background: $primary-color-change;
+    background: #00000046;
     color: #fff;
     transition: 0.4s;
+    box-shadow: #dcc29c3d 0px 5px 30px;
+    border: 1px solid #fff;
   }
 }
 .about {
@@ -674,6 +676,10 @@ hr.new5 {
     cursor: pointer;
     list-style: none;
     box-shadow: rgba(0, 0, 0, 0.35) 1px 2px 15px;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.35) 1px 2px 15px;
+      background: #dabb8c;
+    }
   }
 
   summary::-webkit-details-marker {
